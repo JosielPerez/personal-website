@@ -16,6 +16,8 @@
   height: 100%;
   width: 50%;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -30,6 +32,10 @@
 .title {
   margin-bottom: 10px;
 }
+
+.text {
+  margin-bottom: 10px;
+}
 .skill_container {
   display: flex;
   gap: 10px;
@@ -37,6 +43,7 @@
 
 .button_container {
   width: 100%;
+  margin-top: auto;
 }
 
 .button {
@@ -46,4 +53,13 @@
   background-color: #222121;
   outline: none;
   border: none;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #2d2c2c;
 }

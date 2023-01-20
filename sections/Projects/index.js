@@ -9,7 +9,7 @@ export default function Hero() {
       <div className={styles.container}>
         <div className={styles.top_section}></div>
         <div className={styles.bottom_section}>
-          <ProjectCard>
+          <ProjectCard link="https://github.com/JosielPerez/personal-website">
             <DiPython style={{ width: "30px", height: "30px" }} />
             <SiCplusplus style={{ width: "30px", height: "30px" }} />
           </ProjectCard>
