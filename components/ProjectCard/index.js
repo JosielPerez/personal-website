@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
 
-function ProjectCard() {
+function ProjectCard(props) {
   return (
     <div className={styles.container}>
       <div className={styles.left_content}>
@@ -11,7 +11,7 @@ function ProjectCard() {
         />
       </div>
       <div className={styles.right_content}>
-        <h2>Project Name</h2>
+        <h2 className={styles.title}>Project Name</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
           turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec
@@ -23,6 +23,12 @@ function ProjectCard() {
           Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum
           lorem. Morbi convallis convallis diam sit amet lacinia.
         </p>
+        <div className={styles.skill_container}>{props.children}</div>
+        <div className={styles.button_container}>
+          <a>
+            <button className={styles.button}>Github Repo</button>
+          </a>
+        </div>
       </div>
     </div>
   );

@@ -21,12 +21,29 @@
   font-weight: 400;
   color: rgb(205, 201, 201);
 }
-.right_content > h2 {
-  margin-bottom: 20px;
-}
 
 .project_img {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+.title {
+  margin-bottom: 10px;
+}
+.skill_container {
+  display: flex;
+  gap: 10px;
+}
+
+.button_container {
+  width: 100%;
+}
+
+.button {
+  width: 100%;
+  height: 50px;
+  color: white;
+  background-color: #222121;
+  outline: none;
+  border: none;
 }
