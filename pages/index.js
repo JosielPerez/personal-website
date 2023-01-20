@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.css";
 import Hero from "@/sections/Hero";
 import About from "@/sections/About";
 import Projects from "@/sections/Projects";
+import Contact from "@/sections/Contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function Home() {
         <Hero />
         <About />
         <Projects />
+        <Contact />
       </main>
     </>
   );
