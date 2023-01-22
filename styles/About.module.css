@@ -58,13 +58,17 @@
 .text {
   width: 50%;
   margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
 .skill_list {
   display: flex;
   flex-wrap: wrap;
-  width: 300px;
+  width: 350px;
   margin-left: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 .skill_list > li {
   margin-right: 30px;
@@ -72,7 +76,7 @@
 }
 
 .bar {
-  height: 60%;
+  height: 75%;
   width: 30px;
   background-color: white;
   position: absolute;
