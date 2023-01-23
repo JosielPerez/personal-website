@@ -23,7 +23,7 @@ function ProjectCard(props) {
         </p>
         <div className={styles.skill_container}>{props.children}</div>
         <div className={styles.button_container}>
-          <a href={props.link}>
+          <a href={props.link} target="_blank" rel="noopener noreferrer">
             <button className={styles.button}>Github Repo</button>
           </a>
         </div>
