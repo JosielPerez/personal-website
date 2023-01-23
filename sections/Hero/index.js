@@ -3,7 +3,7 @@ import styles from "@/styles/Hero.module.css";
 export default function Hero() {
   return (
     <>
-      <div className={styles.container}>
+      <div className={styles.container} id="hero">
         <div className={styles.top_section}>
           <h1 className={styles.brand_name}>Josiel</h1>
         </div>

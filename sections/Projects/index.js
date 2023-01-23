@@ -6,7 +6,7 @@ import { SiCplusplus } from "react-icons/si";
 export default function Hero() {
   return (
     <>
-      <div className={styles.container}>
+      <div className={styles.container} id="projects">
         <div className={styles.top_section}></div>
         <div className={styles.bottom_section}>
           <ProjectCard link="https://github.com/JosielPerez/personal-website">
