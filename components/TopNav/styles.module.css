@@ -1,0 +1,23 @@
+.container {
+  height: 40vh;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  align-items: center;
+  gap: 10px;
+}
+.bar {
+  height: 200px;
+  width: 1px;
+  background-color: white;
+}
+
+.icon {
+}
+
+.logo_image {
+  height: 30px;
+  width: 30px;
+}
