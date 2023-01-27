@@ -46,13 +46,14 @@
 .profile_image {
   height: 250px;
   width: 250px;
+  object-fit: cover;
 }
 
 .main_content {
-  height: 100%;
   width: 1080px;
-  padding-top: 10px;
+  margin-top: 10px;
   position: relative;
+  margin-bottom: auto;
 }
 
 .text {
@@ -76,11 +77,10 @@
 }
 
 .bar {
-  height: 75%;
+  height: 100%;
   width: 30px;
   background-color: white;
   position: absolute;
   top: 0px;
   left: -60px;
-  margin-top: 10px;
 }

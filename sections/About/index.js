@@ -11,7 +11,7 @@ export default function About() {
             <div className={styles.right_content}>
               <img
                 className={styles.profile_image}
-                src="/profile.png"
+                src="/profile.jpg"
                 alt="personal profile"
               />
             </div>
