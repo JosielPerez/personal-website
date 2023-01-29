@@ -1,7 +1,9 @@
 .scroll_container {
+  max-height: 100vh;
   overflow: auto;
   scroll-snap-type: y mandatory;
-  scroll-snap-points-y: repeat(100vh);
+  overflow-y: scroll;
+  /* scroll-snap-points-y: repeat(100vh); */
 }
 
 .scroll_area {

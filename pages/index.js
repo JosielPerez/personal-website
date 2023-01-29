@@ -1,15 +1,11 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "@next/font/google";
-import styles from "@/styles/Home.module.css";
 import TopNav from "@/components/TopNav";
 import BottomNav from "@/components/BottomNav";
 import Hero from "@/sections/Hero";
 import About from "@/sections/About";
 import Projects from "@/sections/Projects";
 import Contact from "@/sections/Contact";
-
-const inter = Inter({ subsets: ["latin"] });
+import styles from "@/styles/Home.module.css";
 
 export default function Home() {
   return (
