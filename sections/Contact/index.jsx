@@ -1,25 +1,28 @@
 import styles from "@/styles/Contact.module.css";
 import emailjs from "@emailjs/browser";
+import { useRef } from "react";
 
 export default function Hero() {
-  async function handleSubmit(event) {
-    event.preventDefault();
-    const name = event.target.name.value;
-    const email = event.target.email.value;
-    const message = event.target.message.value;
-    const data = {
-      your_name: name,
-      your_email: email,
-      message: message,
-    };
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
 
-    const response = await emailjs.sendForm(
-      `${process.env.YOUR_SERVICE_ID}`,
-      `${process.env.YOUR_TEMPLATE_ID}`,
-      event.target,
-      `${process.env.YOUR_PUBLIC_KEY}`
-    );
-  }
+      .sendForm(
+        process.env.NEXT_PUBLIC_YOUR_SERVICE_ID,
+        process.env.NEXT_PUBLIC_YOUR_TEMPLATE_ID,
+        form.current,
+        process.env.NEXT_PUBLIC_YOUR_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   return (
     <>
@@ -27,7 +30,7 @@ export default function Hero() {
         <div className={styles.top_section}>
           <h1>Send me a Message!</h1>
         </div>
-        <form className={styles.bottom_section} onSubmit={handleSubmit}>
+        <form ref={form} className={styles.bottom_section} onSubmit={sendEmail}>
           <div className={styles.top_row}>
             <div className={styles.column}>
               <label className={styles.name}>Your Name</label>
