@@ -1,0 +1,44 @@
+.wrapper {
+  position: relative;
+  translate: 0 -250px;
+  height: 500px;
+  width: 900px;
+  display: flex;
+}
+
+.container {
+  height: 500px;
+  width: 900px;
+  display: flex;
+  overflow: hidden;
+}
+
+.bar {
+  transform: translate(0px);
+  transition: transform 0.4s ease;
+  display: flex;
+  gap: 50px;
+}
+
+.right_button {
+  position: absolute;
+  right: -60px;
+  top: 225px;
+  color: rgb(220, 221, 222);
+
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.left_button {
+  position: absolute;
+  left: -60px;
+  top: 225px;
+  rotate: 180deg;
+  color: rgb(220, 221, 222);
+
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
