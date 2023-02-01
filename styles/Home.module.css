@@ -3,6 +3,7 @@
   overflow: auto;
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
+  scroll-behavior: smooth;
   /* scroll-snap-points-y: repeat(100vh); */
 }
 
