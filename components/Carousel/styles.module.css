@@ -15,14 +15,14 @@
 
 .bar {
   transform: translate(0px);
-  transition: transform 0.4s ease;
+  transition: transform 1.5s ease;
   display: flex;
   gap: 50px;
 }
 
 .right_button {
   position: absolute;
-  right: -60px;
+  right: -80px;
   top: 225px;
   color: rgb(220, 221, 222);
 
@@ -33,7 +33,7 @@
 
 .left_button {
   position: absolute;
-  left: -60px;
+  left: -80px;
   top: 225px;
   rotate: 180deg;
   color: rgb(220, 221, 222);

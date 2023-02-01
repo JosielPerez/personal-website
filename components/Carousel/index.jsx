@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
 import { useState } from "react";
-import { BsArrowRightCircle } from "react-icons/bs";
+import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 export default function Carousel(props) {
   const [xPos, setXPos] = useState(0);
@@ -25,11 +25,11 @@ export default function Carousel(props) {
   return (
     <>
       <div className={styles.wrapper}>
-        <BsArrowRightCircle
+        <BsFillArrowRightCircleFill
           onClick={handleRightClick}
           className={styles.right_button}
         />
-        <BsArrowRightCircle
+        <BsFillArrowRightCircleFill
           onClick={handleLeftClick}
           className={styles.left_button}
         />
