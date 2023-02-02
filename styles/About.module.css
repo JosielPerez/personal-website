@@ -84,3 +84,40 @@
   top: 0px;
   left: -60px;
 }
+
+@media screen and (max-width: 420px) {
+  .content {
+    flex-direction: column-reverse;
+  }
+
+  .right_content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .profile_image {
+    height: 200px;
+    width: 200px;
+    border-radius: 90px;
+  }
+
+  .left_content {
+    width: 100%;
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text {
+    width: 100%;
+    font-size: 14px;
+  }
+  .main_content {
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+  }
+  .skill_list {
+    font-size: 14px;
+  }
+}

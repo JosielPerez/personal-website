@@ -21,3 +21,9 @@
   height: 30px;
   width: 30px;
 }
+
+@media screen and (max-width: 420px) {
+  .container {
+    display: none;
+  }
+}

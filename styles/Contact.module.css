@@ -95,3 +95,37 @@
   background-color: white;
   color: #222121;
 }
+
+@media screen and (max-width: 420px) {
+  .top_section {
+    width: 100%;
+    font-size: 18px;
+    align-items: center;
+    display: flex;
+    padding-bottom: 0;
+  }
+
+  .top_section > h1 {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+  }
+
+  .bottom_section {
+    width: 100%;
+  }
+  .top_row {
+    width: 100%;
+    gap: 40px;
+    flex-direction: column;
+  }
+  .column {
+    width: 100%;
+  }
+  .bottom_row {
+    width: 100%;
+  }
+  .button_row {
+    width: 100%;
+  }
+}

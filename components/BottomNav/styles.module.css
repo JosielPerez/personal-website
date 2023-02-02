@@ -14,3 +14,9 @@
   width: 1px;
   background-color: white;
 }
+
+@media screen and (max-width: 420px) {
+  .container {
+    display: none;
+  }
+}
