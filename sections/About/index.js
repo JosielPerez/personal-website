@@ -2,6 +2,10 @@ import styles from "@/styles/About.module.css";
 export default function About() {
   return (
     <>
+      <meta
+        name="apple-mobile-web-app-app-status-bar-style"
+        content="black-translucent"
+      />
       <div className={styles.container} id="about">
         <div className={styles.top_section}>
           <div className={styles.content}>

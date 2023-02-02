@@ -7,6 +7,10 @@ import Carousel from "@/components/Carousel";
 export default function Projects() {
   return (
     <>
+      <meta
+        name="apple-mobile-web-app-app-status-bar-style"
+        content="black-translucent"
+      />
       <div className={styles.container} id="projects">
         <div className={styles.top_section}></div>
         <div className={styles.bottom_section}>
