@@ -26,10 +26,6 @@ export default function Hero() {
 
   return (
     <>
-      <meta
-        name="apple-mobile-web-app-app-status-bar-style"
-        content="black-translucent"
-      />
       <div className={styles.container} id="contact">
         <div className={styles.top_section}>
           <h1>Send me a Message!</h1>
