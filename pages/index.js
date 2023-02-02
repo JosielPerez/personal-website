@@ -17,6 +17,10 @@ export default function Home() {
         <link rel="icon" href="/whitelogo.png" />
       </Head>
       <main>
+        <meta
+          name="apple-mobile-web-app-app-status-bar-style"
+          content="black-translucent"
+        />
         <TopNav />
         <BottomNav />
         <div className={styles.scroll_container}>
