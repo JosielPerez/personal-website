@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta
-          name="apple-mobile-web-app-app-status-bar-style"
+          name="apple-mobile-web-app-status-bar-style"
           content="black-translucent"
         />
       </Head>
