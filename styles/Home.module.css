@@ -14,3 +14,9 @@
 .scroll_container .scroll_area {
   height: 100vh;
 }
+
+@media screen and (max-width: 450px) {
+  .scroll_container {
+    scroll-snap-type: none;
+  }
+}
