@@ -63,8 +63,21 @@
   background-color: #2d2c2c;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
   .container {
-    width: 100%;
+    width: 100vw;
+    max-width: 500px;
+    height: 100%;
+    flex-direction: column;
+  }
+  .right_content {
+    height: 50%;
+    width: 100vw;
+    font-size: 16px;
+  }
+
+  .left_content {
+    height: 50%;
+    width: 100vw;
   }
 }

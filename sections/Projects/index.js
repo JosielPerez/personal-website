@@ -14,7 +14,16 @@ export default function Projects() {
         <div className={styles.top_section}></div>
         <div className={styles.bottom_section}>
           <Carousel>
-            <ProjectCard link="https://github.com/JosielPerez/personal-website">
+            <ProjectCard
+              text="Developed a dynamic and user-friendly personal website that showcases
+              my portfolio. Utilizing the latest web technologies like HTML, CSS,
+              JavaScript and React, the website presents a professional platform for
+              potential employers or clients to view and interact with my projects.
+              The website provides an easy-to-use interface and an engaging user
+              experience to showcase my skills and accomplishments in a modern and
+              professional way"
+              link="https://github.com/JosielPerez/personal-website"
+            >
               <DiJavascript style={{ width: "30px", height: "30px" }} />
               <DiCss3 style={{ width: "30px", height: "30px" }} />
               <DiReact style={{ width: "30px", height: "30px" }} />

@@ -3,23 +3,34 @@ import { useState } from "react";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 export default function Carousel(props) {
+  // (Card Width + Gap Width)
+  const CardWidthPlusGap = 900 + 50;
+  // (Card Width + Gap Width)
+  const CardWidthPlusGapMobile = 450 + 50;
+  const TotalCards = 4;
+
+  // How to get Last card position
+
   const [xPos, setXPos] = useState(0);
-  const LastCardPosition = 2850;
+  const LastCardPosition = CardWidthPlusGap * (TotalCards - 1);
 
   function handleRightClick() {
+    console.log(xPos);
+    console.log("Last:" + LastCardPosition);
     if (xPos * -1 >= LastCardPosition) {
       setXPos(0);
       return;
     }
-    setXPos(xPos - 950);
+    setXPos(xPos - CardWidth);
   }
 
   function handleLeftClick() {
+    console.log(xPos);
     if (xPos * -1 <= 0) {
       setXPos(-LastCardPosition);
       return;
     }
-    setXPos(xPos + 950);
+    setXPos(xPos + CardWidth);
   }
 
   return (
