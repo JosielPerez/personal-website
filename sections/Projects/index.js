@@ -15,6 +15,9 @@ export default function Projects() {
         <div className={styles.bottom_section}>
           <Carousel>
             <ProjectCard
+              img="/project1.png"
+              alt="project 1"
+              title="Personal Website"
               text="Developed a dynamic and user-friendly personal website that showcases
               my portfolio. Utilizing the latest web technologies like HTML, CSS,
               JavaScript and React, the website presents a professional platform for
@@ -28,7 +31,17 @@ export default function Projects() {
               <DiCss3 style={{ width: "30px", height: "30px" }} />
               <DiReact style={{ width: "30px", height: "30px" }} />
             </ProjectCard>
-            <ProjectCard link="https://github.com/JosielPerez/nftfloortracker">
+
+            <ProjectCard
+              img="/project2.png"
+              alt="project 2"
+              title="NFT Floor Tracker"
+              text="A NFT price tracking bot was developed using Python with real-time 
+              price updates for a selected NFT collection. This allows users to stay informed 
+              and track their investments with ease. The bot is user-friendly and provides a 
+              convenient way to stay on top of the NFT market."
+              link="https://github.com/JosielPerez/nftfloortracker"
+            >
               <DiPython style={{ width: "30px", height: "30px" }} />
             </ProjectCard>
             <ProjectCard link="https://github.com/JosielPerez/personal-website">

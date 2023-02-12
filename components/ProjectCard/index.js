@@ -4,14 +4,10 @@ function ProjectCard(props) {
   return (
     <div className={styles.container}>
       <div className={styles.left_content}>
-        <img
-          className={styles.project_img}
-          src="/project1.png"
-          alt="project 1"
-        />
+        <img className={styles.project_img} src={props.img} alt={props.alt} />
       </div>
       <div className={styles.right_content}>
-        <h2 className={styles.title}>Personal Website</h2>
+        <h2 className={styles.title}>{props.title}</h2>
         <p className={styles.text}>{props.text}</p>
         <div className={styles.skill_container}>{props.children}</div>
         <div className={styles.button_container}>

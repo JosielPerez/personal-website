@@ -21,7 +21,7 @@ export default function Carousel(props) {
       setXPos(0);
       return;
     }
-    setXPos(xPos - CardWidth);
+    setXPos(xPos - CardWidthPlusGap);
   }
 
   function handleLeftClick() {
@@ -30,7 +30,7 @@ export default function Carousel(props) {
       setXPos(-LastCardPosition);
       return;
     }
-    setXPos(xPos + CardWidth);
+    setXPos(xPos + CardWidthPlusGap);
   }
 
   return (
