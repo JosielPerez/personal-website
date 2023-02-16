@@ -15,13 +15,17 @@ function TopNav() {
         />
       </a>
       <a href="#about">
-        <CgProfile style={{ width: "30px", height: "30px" }} />
+        <CgProfile style={{ width: "30px", height: "30px", color: "white" }} />
       </a>
       <a href="#projects">
-        <HiOutlineFolder style={{ width: "30px", height: "30px" }} />
+        <HiOutlineFolder
+          style={{ width: "30px", height: "30px", color: "white" }}
+        />
       </a>
       <a href="#contact">
-        <HiOutlineMail style={{ width: "30px", height: "30px" }} />
+        <HiOutlineMail
+          style={{ width: "30px", height: "30px", color: "white" }}
+        />
       </a>
     </div>
   );

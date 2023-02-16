@@ -71,10 +71,12 @@
   margin-left: 15px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  color: white;
 }
 .skill_list > li {
   margin-right: 30px;
   margin-bottom: 10px;
+  color: white;
 }
 
 .bar {

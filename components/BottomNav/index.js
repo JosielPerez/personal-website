@@ -12,17 +12,21 @@ function BottomNav() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <AiOutlineGithub style={{ width: "30px", height: "30px" }} />
+        <AiOutlineGithub
+          style={{ width: "30px", height: "30px", color: "white" }}
+        />
       </a>
       <a
         href="https://www.linkedin.com/in/josiel-perez/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <CiLinkedin style={{ width: "30px", height: "30px" }} />
+        <CiLinkedin style={{ width: "30px", height: "30px", color: "white" }} />
       </a>
       <a href="/resume" target="_blank" rel="noopener noreferrer">
-        <BiSpreadsheet style={{ width: "30px", height: "30px" }} />
+        <BiSpreadsheet
+          style={{ width: "30px", height: "30px", color: "white" }}
+        />
       </a>
     </div>
   );
