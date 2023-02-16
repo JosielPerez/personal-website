@@ -28,7 +28,7 @@ export default function Hero() {
     <>
       <div className={styles.container} id="contact">
         <div className={styles.top_section}>
-          <h1>Send me a Message!</h1>
+          <h1 color="white">Send me a Message!</h1>
         </div>
         <form ref={form} className={styles.bottom_section} onSubmit={sendEmail}>
           <div className={styles.top_row}>

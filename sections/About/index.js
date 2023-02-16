@@ -6,7 +6,7 @@ export default function About() {
         <div className={styles.top_section}>
           <div className={styles.content}>
             <div className={styles.left_content}>
-              <h1>ABOUT</h1>
+              <h1 color="white">ABOUT</h1>
             </div>
             <div className={styles.right_content}>
               <img

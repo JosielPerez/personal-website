@@ -59,6 +59,7 @@
 .text {
   width: 50%;
   margin-bottom: 10px;
+  color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
