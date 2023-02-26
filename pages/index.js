@@ -14,6 +14,7 @@ export default function Home() {
         <title>Josiel</title>
         <meta name="description" content="Josiel's Personal Website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#242626" />
         <link rel="icon" href="/whitelogo.png" />
         <meta
           name="apple-mobile-web-app-status-bar-style"
